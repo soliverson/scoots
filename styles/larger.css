@@ -1,0 +1,116 @@
+@media screen and (min-width: 55rem) {
+    body{
+        margin: auto;
+    }
+    header{
+        font-size: 1.5rem;
+    }
+    
+    #menu{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    ul.navigation, ul.navigation.open{
+        display: flex;       
+    }
+
+    ul.navigation li{
+        margin: 0 20px;
+        border: none;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        font-weight: 700;  
+        font-size: 1.2rem;
+    }
+    .hero-message{
+        position:fixed;
+        top: 25%;
+        width: 20%;
+        margin-left: 35px;
+        font-size: 1.5rem;
+        background-color: #0D3B66;
+        color: #F4D35E;
+        text-align: center;
+        opacity: 0.9;
+        border-radius: 100px;
+        padding-bottom: 15px;
+    }
+
+
+
+    .slide-card img{
+        width: 80%;
+        height: auto; 
+        border-radius: 5px;
+        margin-top: 1.5rem; 
+    }
+    .slide-card>.text{
+        font-size: 2.5rem; 
+    }
+
+        /* Weather */
+
+        #weather {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+            grid-column: 2/12;
+            row-gap: 1.5rem;
+            margin-top: 1rem;
+            padding-bottom: 1.5rem;
+        }
+    
+        .forecast-card {
+            margin: auto;
+            width: 12rem;
+            grid-column: auto;
+        }
+
+        .home span {
+            display: flex;
+            }
+            .contact-container {
+                margin-top: 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                grid-auto-rows: auto;
+                grid-template-areas:
+                  "title title"
+                  "contact-us form-container"
+                  "contact-us form-container"
+                  "map map";
+              }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+              }
+            
+              th,
+              td {
+                padding: 3px;
+                border: 1px solid #ddd;
+              }
+            
+              tr:nth-child(even) {
+                background-color: #f2f2f2;
+              }
+            
+              th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                width: auto;
+                text-align: center;
+                background-color: #4CAF50;
+                color: white;
+              }
+
+              
+              
+}
+

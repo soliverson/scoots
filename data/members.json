@@ -1,0 +1,32 @@
+{
+    "members":[
+    {
+        "advertisement": "Welcome to Cozumel!",
+        "image": "images/cozumel-large.webp",
+        "alt": "Cozumel tourist area",
+        "membership": "Gold"
+
+    },
+        {
+        "advertisement": "Welcome to Cozumel!",
+        "image": "images/cozumel1-large.webp",
+        "alt": "Cozumel city and ocean view",
+        "membership": "Gold"
+
+    },
+    {
+        "advertisement": "Enjoy the beautiful views of the ocean and the city!",
+        "image": "images/cozumel2-large.webp",
+        "alt": "Cozumel scooter",
+        "membership": "Gold"
+
+    },
+    {
+        "advertisement": "Take a scenic ride along the beach on our reliable motor scooter!",
+        "image": "images/cozumel3-large.webp",
+        "alt": "Cozumel scooter",
+        "membership": "Gold"
+
+    }
+]
+}
