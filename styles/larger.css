@@ -81,7 +81,7 @@ section {
         
         .forecast-card {
             margin: auto;
-            width: 15rem;
+            width: 12rem;
             grid-column: auto;
         }
 
