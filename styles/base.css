@@ -157,7 +157,7 @@ ul.navigation.open {
 
 /* Weather */
 #weather {
-    display: flex;
+    display: inline-block;
   }
 
 #weather img {
