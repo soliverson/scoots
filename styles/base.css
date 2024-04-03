@@ -155,8 +155,6 @@ ul.navigation.open {
     padding-bottom: .5rem;
 }
 
-
-
 /* Weather */
 #weather {
     display: block;
@@ -233,6 +231,9 @@ section {
 .info a {
     padding: 15px;
 }
+
+
+
 /*Contact*/
 
 .form-cont {
@@ -291,7 +292,6 @@ section {
   .buttons {
     display: flex;
     flex-direction: row;
-    gap: 20px;
     width: 100%;
   }
   
