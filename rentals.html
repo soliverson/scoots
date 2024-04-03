@@ -46,34 +46,25 @@
            </ul>
         </nav>
         <section class="home">
-			<table style="border: 1px solid">
-				<thead>
-					<tr>
-						<th colspan="7"> PRICING LIST</th>
-					</tr>
-					<tr>
-						<th colspan="3"></th>
-						<th colspan="2">Reservation</th>
-						<th colspan="2">Walk-in</th>
-					</tr>
-					<tr>
-						<th>model</th>
-						<th>rental type</th>
-						<th>max persons</th>
-						<th>half day 3hs</th>
-						<th>full day</th>
-						<th>half day 3hs</th>
-						<th>full day</th>
-					</tr>
-				</thead>
-				<tbody>
+            <div class="table">    
+                <h2>Max Rental Pricing</h2>
+              <table id="rentalTable">
+                <thead>
+                  <tr>
+                    <th>Rental Type</th>
+                    <th>Max. Persons</th>
+                    <th>Reservation Half Day (3 hrs)</th>
+                    <th>Reservation Full Day</th>
+                    <th>Walk-In Half Day (3 hrs)</th>
+                    <th>Walk-In Full Day</th>
+                  </tr>
+                </thead>
+                  <tbody>
+                    <!-- Table body content will be inserted dynamically using JavaScript -->
+                  </tbody>
+              </table>
+            </div>	
 
-				</tbody>
-			</table>
-        </section>
-
-
- 
     </main>
     <footer>
         <p>Scoots Motor Scooter Rental Company &copy; <span id="current-year"></span></p>
@@ -87,7 +78,7 @@
         <p>Stacy Oliverson</p>
     </footer>
     
-    <script src="scripts/table.js"></script>
+    <script src="scripts/rentals.js"></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/banner.js"></script>
     <script src="scripts/currentyear.js"></script>
