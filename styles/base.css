@@ -308,21 +308,32 @@ section {
 
   .title {
     grid-area: title;
+    padding-top: 30px;
   }
-
+  .title h2{
+    font-size:40px;
+  }
+  .title h3{
+    font-size:20px;
+  }
+  .subtitle{
+    font-size:30px;
+  }
   .contact-us {
     grid-area: contact-us;
-
+    position: relative;
     padding: 40px 20px;
     line-height: 1.5;
     font-size: 1.5rem;
     border-radius: 10px;
     box-shadow: 1px 1px 15px #EE964B;
+    background-color:#F4D35E;
   }
 
   .form-container {
     grid-area: form-container;
     box-shadow: 1px 1px 15px #EE964B;
+    background: #F4D35E;
 
   }
 
@@ -337,9 +348,6 @@ section {
     padding-top: 20px;
   }
 
-  .contact-us {
-    position: relative;
-  }
 
 
   .contact-button {
@@ -356,6 +364,7 @@ section {
     box-shadow: 1px 1px 15px #EE964B;
     padding: 20px;
     margin-bottom: 30px;
+    background-color:#F4D35E;
 
   }
   .gmap-canvas iframe {
