@@ -1,9 +1,3 @@
-----#0D3B66 Darkblue-----
-----#FAF0CA Cream------
-----#F4D35E Yellow-----
-----#EE964B Orange------
------#F95738 DarkOrange------
-
 * {
     margin: 0;
     padding: 0;
@@ -319,7 +313,7 @@ section {
     padding: 40px 20px;
     line-height: 1.5;
     font-size: 1.5rem;
-    border-radius: 10px solid;
+    border-radius: 10px;
     box-shadow: 1px 1px 15px #EE964B;
   }
 
