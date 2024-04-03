@@ -137,14 +137,18 @@ ul.navigation.open {
 .home h2{
   font-size: 30px;
 }
+
+.home p{
+  text-align: left;
+  font-size: 20px;
+  padding:15px;
+}
 .slide-card img{
     width: 90%;
     height: auto; 
     border-radius: 8px;
     margin-top: .5rem; 
     box-shadow: 2px 2px 8px #FFFFFF;
-
-
 }
 .slide-card>.text{
     font-size: 1.5rem;
@@ -152,16 +156,20 @@ ul.navigation.open {
 }
 
 
+
 /* Weather */
 #weather {
     display: block;
-}
+  }
 
 #weather img {
     height: 4rem;
     width: auto;
 }
 
+.forecast-card p{
+  text-align: center;
+}
 .forecast-card {
     color: #0D3B66;
     background: #e9d58b9d;
@@ -349,9 +357,13 @@ section {
   margin:30px;
 }
 .home img{
+  width: 90%;
+  height: auto;
   margin: 30px;
+  margin-top:95;
   box-shadow: 1px 1px 15px #EE964B;
 }
+
 
   .contact-us h3 {
     margin-bottom: -10px;
