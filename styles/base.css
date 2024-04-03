@@ -326,7 +326,10 @@ section {
 
   }
 
-
+.form img{
+  width: 80%;
+  height: auto;
+}
 
   
   .contact-us h3 {
