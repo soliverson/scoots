@@ -18,6 +18,7 @@
 
 #banner p {
     font-size: 1rem;
+    font-weight: bold;
     margin-block: 0em;
     line-height: 2rem;
 }
