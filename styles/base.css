@@ -345,6 +345,9 @@ section {
   height: auto;
 }
 
+.home{
+  margin:30px;
+}
 .home img{
   box-shadow: 1px 1px 15px #EE964B;
   margin: 30px;
