@@ -345,7 +345,11 @@ section {
   height: auto;
 }
 
-  
+.home img{
+  box-shadow: 1px 1px 15px #EE964B;
+  margin: 30px;
+}
+
   .contact-us h3 {
     margin-bottom: -10px;
     padding-top: 20px;
